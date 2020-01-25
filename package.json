@@ -1,6 +1,6 @@
 {
   "name": "react-timepicker-c",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A simple timepicker component for ReactJS also supports custom time input",
   "author": "nosisky",
   "license": "MIT",
@@ -53,6 +53,14 @@
     "rollup-plugin-url": "^1.4.0",
     "typescript": "^2.8.3"
   },
+  "keywords": [
+    "timepicker",
+    "time-input",
+    "time-select",
+    "react-select",
+    "react-time-picker",
+    "react-input"
+  ],
   "files": [
     "dist"
   ]
