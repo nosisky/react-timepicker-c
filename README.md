@@ -18,13 +18,59 @@ import * as React from 'react'
 import TimePicker from 'react-timepicker-c'
 
 class Example extends React.Component {
+  constructor(props){
+    super(props)
+    this.state = {
+      timeValue: ''
+    }
+  }
+
+  handleTimeChange = (timeValue) => {
+    this.setState({
+      timeValue
+    })
+  } 
+
   render () {
     return (
-      <TimePicker />
+        <TimePicker
+          minTime = '1:00am'
+          maxTime =  '4:30pm'
+          onChange={this.handleTimeChange}
+          timeValue={this.state.timeValue}
+          name="timeField"
+        />
     )
   }
 }
 ```
+
+
+## Props
+
+Common props you may want to specify include:
+
+- `name` - generate an HTML input with this name, containing the current value (optional)
+- `onChange` - subscribe to change events
+- `minTime` - specify the starting time e.g 1:00am (optional)
+- `maxTime` - specify the maximum time e.g 5:00pm (optional)
+- `timeValue` - control the current value
+- `hasTimeError` - boolean value to handle custom error validation (optional)
+
+## Controllable Props
+
+You can control the following props by providing values for them. If you don't, React-timepicker-c will manage them for you.
+
+- `timeValue` / `onChange` - specify the current value of the control
+
+If you don't provide these props, you can set the initial value of the state they control:
+
+## Methods
+
+React-timepicker-c exposes a public method:
+
+- `onChange()` - Subscribe to change events.
+
 
 ## License
 

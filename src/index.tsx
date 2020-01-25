@@ -176,7 +176,7 @@ class TimeSelectField extends React.Component<Props, State> {
       <Container id="timepickerContainer">
         <StyledInput
           id="timepickerInput"
-          name="timeField"
+          name={this.props.name}
           value={timeValue}
           onFocus={this.handleFocus}
           onChange={this.handleTimeInputChange}
