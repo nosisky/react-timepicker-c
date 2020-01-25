@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import TimePicker from 'react-timepicker'
+import TimePicker from 'react-timepicker-c'
 
 export default class App extends Component {
   constructor(props){

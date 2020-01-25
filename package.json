@@ -1,10 +1,10 @@
 {
-  "name": "react-timepicker",
+  "name": "react-timepicker-c",
   "version": "1.0.0",
   "description": "A simple timepicker component for ReactJS",
   "author": "nosisky",
   "license": "MIT",
-  "repository": "nosisky/react-timepicker",
+  "repository": "nosisky/react-timepicker-c",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
@@ -29,8 +29,7 @@
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
-    "react-dom": "^15.0.0 || ^16.0.0",
-    "styled-components": "^5.0.0"
+    "react-dom": "^15.0.0 || ^16.0.0"
   },
   "devDependencies": {
     "@svgr/rollup": "^2.4.1",

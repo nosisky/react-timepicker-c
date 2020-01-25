@@ -1,6 +1,6 @@
 {
-  "name": "react-timepicker-example",
-  "homepage": "https://nosisky.github.io/react-timepicker",
+  "name": "react-timepicker-c-example",
+  "homepage": "https://nosisky.github.io/react-timepicker-c",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "file:../node_modules/react",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "react-timepicker": "file:.."
+    "react-timepicker-c": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",
