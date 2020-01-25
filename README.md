@@ -1,6 +1,6 @@
 # react-timepicker-c
 
-> A simple timepicker component for ReactJS
+> A simple timepicker component for ReactJS also supports custom time input
 
 [![NPM](https://img.shields.io/npm/v/react-timepicker-c.svg)](https://www.npmjs.com/package/react-timepicker-c) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
