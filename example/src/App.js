@@ -21,6 +21,7 @@ export default class App extends Component {
         <TimePicker
           minTime = '1:00am'
           maxTime =  '4:30pm'
+          interval={10}
           onChange={this.handleTimeChange}
           timeValue={this.state.timeValue}
           hasTimeError={this.state.hasTimeError}

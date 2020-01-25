@@ -56,6 +56,7 @@ Common props you may want to specify include:
 - `maxTime` - specify the maximum time e.g 5:00pm (optional)
 - `timeValue` - control the current value
 - `hasTimeError` - boolean value to handle custom error validation (optional)
+- `interval` - specify the interval between the time options e.g 30 - will represent 30 mins (optional)
 
 ## Controllable Props
 

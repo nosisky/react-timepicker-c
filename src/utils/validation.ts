@@ -18,10 +18,8 @@ export const filterTimesByUserInput = (
 export const generateTimesInRange = (
   fromTime: string,
   toTime: string,
-  interval: number = 30
+  interval: number
 ): string[] => {
-  // NOTE(SW): The third argument to moment enables strict parsing so that strings like 'I am time'
-  // are not valid times.
   const start = moment(fromTime.replace(/[\s]/g, ''), 'h:mma', true);
   const end = moment(toTime.replace(/[\s]/g, ''), 'h:mma', true);
 

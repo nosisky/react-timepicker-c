@@ -15,6 +15,7 @@ export interface Props {
   minTime?: string;
   maxTime?: string;
   hasTimeError?: boolean;
+  interval?: number;
   name?: string;
 }
 
@@ -97,6 +98,7 @@ class TimeSelectField extends React.Component<Props, State> {
   public static defaultProps = {
     minTime: '12:00am',
     maxTime: '11:30pm',
+    interval: 30
   };
 
   constructor(props: Props) {
@@ -110,7 +112,8 @@ class TimeSelectField extends React.Component<Props, State> {
 
     this.timeOptions = generateTimesInRange(
       this.props.minTime!,
-      this.props.maxTime!
+      this.props.maxTime!,
+      this.props.interval!
     );
 
     this.handleFocus = this.handleFocus.bind(this);
